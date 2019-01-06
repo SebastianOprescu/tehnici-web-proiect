@@ -1,0 +1,39 @@
+body {
+    text-align: justify;
+    background-color: #FAEBD7
+    }
+    p {
+        font-family: 'Times New Roman', Times, serif
+      }
+h1, h2, h3
+{
+    font-family: Arial
+}
+.title
+{
+    font-size: 50px;
+    font-style: bold;
+}
+.sub1
+{
+    font-size: 35px;
+}
+.sub2
+{
+    font-size: 20px;
+}
+table.rank_table
+{
+    border-spacing: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border:1px solid black;
+    padding: 15px;
+  }
+  
+  .toleft {
+    float: left;
+    padding: 5px;
+  }
