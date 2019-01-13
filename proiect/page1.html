@@ -8,17 +8,14 @@
     <title>Document</title>
 </head>
 
-<body>
-    <script src="script1.js"></script> 
-    <link rel="stylesheet" href="style.css">
+<body class="all_page">
+    <script src="javascript/script1.js"></script> 
+    <link rel="stylesheet" href="style/style1.css">
     <h1 class="title">Morrowind:Seyda Neen</h1>
     <input type="text" onkeypress="functionKey()">
     <button onclick="functionClick()">Original</button>
-    <p id="demo"></p>
-    <div class="toleft">
-            <img class="container__image" alt="MW-banner-Imperial.png" src="MW-banner-Imperial.png">
-    </div>
-    <div class="toright">>
+    <p><a href="ajaxdemo.html">Ajax Function Test</a></p>
+    <img class="img" alt="Banner-Imperial" src="MW-banner-Imperial.png" hspace="5">
         <p>The port of Seyda Neen, "the Gateway to Vvardenfell", is a small village in the southern Bitter Coast region,
         bordering the Ascadian Isles. Much of the town was built by the Gold Coast Trading Company in the years prior
         to the Three Banners War in the mid-Second Era, though it was administered and protected by House Hlaalu.</p>
@@ -32,7 +29,6 @@
         slaughterfish. There are also dreugh not far off shore. For more information, see the lore article.</p>
     <p>Seyda Neen is especially significant as the starting point, where you begin aboard a prison ship in the port and
         where the main quest is begun.</p>
-    </div>
     <h2 class="sub1">Census and Excise Office and Warehouse</h2>
     <p>Socucius Ergalla is the chief agent in the Imperial <a href="page2.html">Census and Excise Offices</a>. In
         addition to helping select class and sign, Socucius will provide release papers and training. There is a
@@ -69,13 +65,13 @@
         around level 4 or a bit higher; it is difficult to survive earlier due to the firepower of the numerous
         Skeleton Archers that will be encountered).</p>
     <h3 class="sub2">Notes</h3>
-    <ul>
+    <ul class="list">
         <li>Outside the lighthouse, an iron shardaxe lies inside a tree stump. Another stump close to the walkway holds
             a silver cup and some gold.</li>
         <li>For detailed starting tips, see the Starting Out article.</li>
     </ul>
     <h3 class="sub2">Places of Interest Around Seyda Neen</h3>
-    <ul>
+    <ul class="list">
         <li>Just north of the silt strider is Addamasartus, a smugglers' cave where you can test your combat abilities
             and acquire loot that can be sold for profit, as well as slaves to be freed to initiate a quest that
             appears later in the game.</li>
@@ -86,7 +82,6 @@
             details.</li>
         <li>West of Seyda Neen, across the water, is Thelas Ancestral Tomb.</li>
     </ul>
-    <button type="button" onclick="loadDoc()">AJAX GET</button>
 </body>
 
 </html>

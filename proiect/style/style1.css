@@ -1,0 +1,77 @@
+.all_page {
+    text-align: justify;
+    background-color: #FAEBD7;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    }
+
+.title{
+    font-size: 20px;
+    font-style: bold;
+}
+.sub1
+{
+    font-size: 17px;
+}
+.sub2
+{
+    font-size: 15px;
+}
+.list
+{
+    font-size: 9px;
+}
+
+.img {
+    width: 64px;
+    height: auto;
+    float: left;
+}
+
+    @media screen and (min-width: 768px) {
+        .all_page {
+          font-size: 15px;
+        }
+        .title{
+            font-size: 25px;
+        }
+        .sub1
+        {
+            font-size: 22px;
+        }
+        .sub2
+        {
+            font-size: 20px;
+        }
+        .list
+        {
+             font-size: 13px;
+        }
+        .img {
+            width: 96px;
+        }
+      }
+      
+      @media screen and (min-width: 1280px) {
+        .all_page {
+          font-size: 20px;
+        }
+        .title{
+            font-size: 30px;
+        }
+        .sub1
+        {
+            font-size: 27px;
+        }
+        .sub2
+        {
+            font-size: 25px;
+        }
+        .list
+        {
+             font-size: 17px;
+        }
+        .img {
+            width: 128px;
+        }
+      }
